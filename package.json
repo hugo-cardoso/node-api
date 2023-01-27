@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
     "eslint": "^8.32.0",
     "eslint-config-standard-with-typescript": "^32.0.0",
     "git-commit-msg-linter": "^4.5.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
     "typescript": "^4.9.4"
   }
 }
