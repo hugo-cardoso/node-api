@@ -1,8 +1,7 @@
 import type { HttpResponse, HttpRequest } from '../protocols/Http'
 import type { Controller } from '../protocols/Controller'
 import type { EmailValidator } from '../protocols/EmailValidator'
-import { MissingParamsError } from '../errors/MissingParamsError'
-import { InvalidParamsError } from '../errors/InvalidParamsError'
+import { MissingParamsError, InvalidParamsError } from '../errors'
 import { badRequest, serverError } from '../helpers/httpHelper'
 
 class SignUpController implements Controller {
