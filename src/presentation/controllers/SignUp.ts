@@ -1,6 +1,4 @@
-import type { HttpResponse, HttpRequest } from '../protocols/Http'
-import type { Controller } from '../protocols/Controller'
-import type { EmailValidator } from '../protocols/EmailValidator'
+import type { HttpResponse, HttpRequest, Controller, EmailValidator } from '../protocols'
 import { MissingParamsError, InvalidParamsError } from '../errors'
 import { badRequest, serverError } from '../helpers/httpHelper'
 
